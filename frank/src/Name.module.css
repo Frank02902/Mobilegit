@@ -1,0 +1,25 @@
+.blog{
+  margin: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 5px #ccc;
+  background-color: lightblue;
+}
+button{
+  margin: 10px;
+  border: none;
+  box-shadow: 0px 2px 5px #ccc;
+  background-color: pink;
+  font: calibri;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+}
+@media(min-width: 50px){
+  .blog{
+    width: 40%;
+    display: inline-block;
+    
+  }
+}
