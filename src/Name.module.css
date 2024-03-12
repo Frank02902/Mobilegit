@@ -10,10 +10,10 @@ button{
   margin: 10px;
   border: none;
   box-shadow: 0px 2px 5px #ccc;
-  background-color: pink;
+  background-color: yellow;
   font: calibri;
   font-weight: bold;
-  color: white;
+  color: blue;
   border-radius: 5px;
 }
 @media(min-width: 50px){

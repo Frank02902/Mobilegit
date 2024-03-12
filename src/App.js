@@ -8,8 +8,10 @@ class App extends Component {
     show: true,
   }
   btnclick = () => {
-  let btnshow = !this.state.show;
-   this.setState({show: btnshow});
+  //let btnshow = !this.state.show;
+   this.setState((prevState, prevProps) => {
+     return {show: !prevState.show}
+   });
    this.state.show ? this.setState({action: "show"}) : this.setState({action: "hide"})
  }
  
