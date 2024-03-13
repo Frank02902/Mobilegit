@@ -26,8 +26,10 @@ class App extends Component {
     {this.state.show? <Header />: null}
     <Header />
     <Header />
+    
     <br></br>
     <h4 className= {classes.blog}> hello </h4>
+    
     </div>
   );
  }

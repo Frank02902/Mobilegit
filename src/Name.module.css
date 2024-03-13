@@ -4,16 +4,17 @@
   border-radius: 10px;
   box-sizing: border-box;
   box-shadow: 0px 2px 5px #ccc;
-  background-color: lightblue;
+  background-color: #17bce7;
+  color: white;
 }
 button{
   margin: 10px;
   border: none;
   box-shadow: 0px 2px 5px #ccc;
-  background-color: yellow;
+  background-color: #17bce7;
   font: calibri;
   font-weight: bold;
-  color: blue;
+  color: white;
   border-radius: 5px;
 }
 @media(min-width: 50px){
